@@ -42,6 +42,7 @@ def request_data(filename, endpoint, **kwargs):
 
 
 if __name__ == '__main__':
-    api = openaq.OpenAQ()
-    df = request_data('data.csv', api.parameters)
-    print(df)
+    print('hello!')
+    # api = openaq.OpenAQ()
+    # df = request_data('data.csv', api.parameters)
+    # print(df)
